@@ -1,0 +1,57 @@
+.titulo {
+    color: red;
+}
+/*Selector por clase*/
+.titulo2 {
+    color: pink;
+}
+/*Selector por etiqueta*/
+h3 {
+    color: blue;
+}
+
+/*Selector por id*/
+#elmejortitulo {
+    color: springgreen;
+    background-color: red;
+}
+
+/*Unidad de medida absoluta px*/
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+/*Unidad de medida relativa %*/
+.cuadrado2 {
+    width: 20%;
+    height: 40%;
+    background-color: violet;
+}
+
+.rick {
+    width: 500px;
+    height: 500px;
+    background-image: url("./imagenes/rick-morty-.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.parrafo1{
+    color: yellow;
+}
+
+.parrafo2{
+    color:#153887;
+}
+
+.parrafo3{
+    color:rgb(135,44,88);
+}
+
+.parrafo4{
+    color:rgba(135,44,88,0);
+}
