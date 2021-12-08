@@ -2,6 +2,7 @@
     display: none;
 }
 
+
 li {
     display: inline-block;
     list-style: none;
@@ -45,7 +46,7 @@ nav {
     .icon-menu {
         display: inline-block!important;
     }
-
+    
     .change:checked ~ ul {
         display: inline-block!important;
     }
