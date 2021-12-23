@@ -1,0 +1,15 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition-property: background-color,width;
+    /* transition-delay: 1s; */
+    transition-duration: 5s;
+    transition-timing-function: cubic-bezier(.06,1.71,.89,-0.77);
+}
+
+
+.cuadrado:hover{
+    width: 500px;
+    background-color: chartreuse;
+}
